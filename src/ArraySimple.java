@@ -23,7 +23,7 @@ public class ArraySimple {
         impares[4]=9;//otra forma de inicializar
       
         
-    String[] paises ={"Paraguay","Argentina","Brasil"};//array de objetos
+    String[] paises ={"Paraguay","Argentina","Brasil","Chile"};//array de objetos
     System.out.println(paises[0]);
     //modificar un valor en una posicion
     paises[0] = "PARAGUAY";
@@ -43,5 +43,7 @@ public class ArraySimple {
      Double[] valores ={12.3,14.25,18.01};
      //Quiero tomar el primer valor y accesar un metodo del objeto
      System.out.println(valores[0].doubleValue());
+     //Quiero tomar el segundo valor y accesar un metodo del objeto
+     System.out.println(valores[1].doubleValue());
     }
 }
