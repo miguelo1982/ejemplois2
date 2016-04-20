@@ -2,21 +2,20 @@
 import java.util.ArrayList;
 
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * Ejemplo para trabajar con ArrayList.
  */
 
 /**
  *
- * @author elearning03
+ * @author Miguel R
  */
 public class arrayList {
     public static void main(String[] args)
     {
         ArrayList<String> color = new ArrayList<>();
         color.add("Rojo");//esto seria equivalente a color[0] ="Rojo";
-        color.add("Azul");
-        color.add("Amarillo");
+        color.add("Azul"); //esto seria equivalente a color[1] ="Azul";
+        color.add("Amarillo");//esto seria equivalente a color[2] ="Amarillo";
         //definir la posicion de un elemento
         color.add(0,"Marron");//asigno directamente en la primera posicion pero rojo pasa a la segunda posicion
         //ahora queremos saber cuantos elementos tiene el array
