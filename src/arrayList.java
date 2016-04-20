@@ -8,6 +8,7 @@ import java.util.ArrayList;
 /**
  *
  * @author Miguel R
+ * @version 1.0
  */
 public class arrayList {
     public static void main(String[] args)
